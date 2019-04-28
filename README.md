@@ -11,7 +11,7 @@
 </p>
 
 ## What Is This?
-This is the most simplified form of a [RESTful-API](https://en.wikipedia.org/wiki/Representational_state_transfer).
+This is the most simplified form of a [RESTful-API](https://en.wikipedia.org/wiki/Representational_state_transfer) using the [Flask microframework](http://flask.pocoo.org/).
 
 ## How To Use This
 1. **Install** requirements
