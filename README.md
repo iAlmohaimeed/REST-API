@@ -23,23 +23,31 @@ This is the most simplified form of a [RESTful-API](https://en.wikipedia.org/wik
     $ python server.py
     ```
 3. **Call** the endpoints specified for the server.
-    * You can use [POSTMAN](https://www.getpostman.com/) to test the api. 
-
+    * You can use [POSTMAN](https://www.getpostman.com/) to test the api.
+    * Server output:
+        ```console
+        127.0.0.1 - [28/Apr/2019 17:31:54] "GET /employee/testGet HTTP/1.1" 200 
+        127.0.0.1 - [28/Apr/2019 17:31:54] "POST /employee/testPost HTTP/1.1" 200 
+        127.0.0.1 - [28/Apr/2019 17:31:54] "PUT /employee/testPut HTTP/1.1" 200 
+        127.0.0.1 - [28/Apr/2019 17:31:54] "PATCH /employee/testPatch HTTP/1.1" 200 
+        127.0.0.1 - [28/Apr/2019 17:31:54] "DELETE /employee/testDelete HTTP/1.1" 200 
+        ```
 ## Endpoint specification
   > Syntax: URL/"endpointName" 
 
 
-- localhost:5000/**endpoint1** (GET)
-  1. This endpoint delivers the number of ....   
-  2. This endpoint does not require any parameters to be passed.
-
-
-- localhost:5000/**endpoint2** (GET)
-  1. This endpoint allows users get information about an employee.
-  2. This endpoint requires the **employee ID** to be passed as in Integer.
+- localhost:5000/**employee**/<_employee_name_> 
+  1. This endpoint support the follwonig Http requests:
+      * GET
+      * POST
+      * PUT
+      * PATCH
+      * DELETE 
+  2. This endpoint require a single parameter to be passed <_employee_name_>.
 
 ## Note
-  * Flask uses port number 5000 as a default.
+  * Flask uses port number 5000 as the default port.
+  * Each Http request has its own handler, which must be implemented by the developer inside the _server.py_ file. 
 
 ## Built With
 * [Python](https://www.python.org/) - Python
