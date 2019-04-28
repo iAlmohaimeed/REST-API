@@ -14,6 +14,18 @@ class Employee(Resource):
         ''' POST REQUEST HANDLER FOR /employee/<employee_name> ENDPOINT '''
         return True
 
+    def put(self, employee_name):
+        ''' POST REQUEST HANDLER FOR /employee/<employee_name> ENDPOINT '''
+        return True
+    
+    def patch(self, employee_name):
+        ''' POST REQUEST HANDLER FOR /employee/<employee_name> ENDPOINT '''
+        return True
+
+    def delete(self, employee_name):
+        ''' POST REQUEST HANDLER FOR /employee/<employee_name> ENDPOINT '''
+        return True
+
 '''
         ---- THE LIST OF ENDPOINTS ---- 
     Syntax:
