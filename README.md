@@ -1,5 +1,5 @@
 ## What Is This?
-This most simplified form of a [RESTful-API](https://en.wikipedia.org/wiki/Representational_state_transfer).
+This is the most simplified form of a [RESTful-API](https://en.wikipedia.org/wiki/Representational_state_transfer).
 
 ## How To Use This
 1. **Install** requirements
