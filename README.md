@@ -1,3 +1,15 @@
+<p align="center">
+    
+  <a href="https://opensource.org/licenses/mit-license.php" alt="Contributors">
+        <img src="https://badges.frapsoft.com/os/mit/mit.svg?v=103" /></a>
+  <a href="http://flask.pocoo.org/"><img src="http://flask.pocoo.org/static/badges/made-with-flask-s.png"
+   border="0"
+   alt="made with Flask"
+   title="made with Flask"></a>
+  <a href="https://github.com/" alt="Contributors">
+        <img src="https://aleen42.github.io/badges/src/github.svg" /></a>
+</p>
+
 ## What Is This?
 This is the most simplified form of a [RESTful-API](https://en.wikipedia.org/wiki/Representational_state_transfer).
 
