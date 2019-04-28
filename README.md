@@ -1,17 +1,20 @@
-# iSeefood RESTful API
-A RESTful api for the iSeefood program.
-
 ## What Is This?
-This a server with an integrated RESTful API designed to access the [iSeefood](https://github.com/IbrahimNM/iSeefood) features.
+This most simplified form of a [RESTful-API](https://en.wikipedia.org/wiki/Representational_state_transfer).
 
 ## How To Use This
-
-1. **Run** the server.py file.
-2. **Use** the URL endpoints specified for the server.
-3. ...
+1. **Install** requirements
+    ```console
+    $ pip install -r requirements.txt
+    ```
+2. **Run** the server.py file.
+    ```console
+    $ python server.py
+    ```
+3. **Call** the endpoints specified for the server.
+    * You can use [POSTMAN](https://www.getpostman.com/) to test the api. 
 
 ## Endpoint specification
-  > Syntax: URL/"endpointName"     (Supported Http requests)
+  > Syntax: URL/"endpointName" 
 
 
 - localhost:5000/**endpoint1** (GET)
@@ -24,9 +27,7 @@ This a server with an integrated RESTful API designed to access the [iSeefood](h
   2. This endpoint requires the **employee ID** to be passed as in Integer.
 
 ## Note
-  * blah blah blah
-  * yes yes yes
-  * no no no
+  * Flask uses port number 5000 as a default.
 
 ## Built With
 * [Python](https://www.python.org/) - Python
@@ -44,6 +45,3 @@ We use [Github](https://github.com/) for versioning. For the versions available,
 
 This project is licensed under the MIT License - see [LICENSE](LICENSE) for details.
 
-## Acknowledgments
-* **Machine Learning and Complex Systems Lab at Wright State University** - [GitHub repo](https://github.com/wsu-wacs/seefood)
-#
