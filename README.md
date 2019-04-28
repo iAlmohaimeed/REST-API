@@ -33,8 +33,6 @@ This is the most simplified form of a [RESTful-API](https://en.wikipedia.org/wik
         127.0.0.1 - [28/Apr/2019 17:31:54] "DELETE /employee/testDelete HTTP/1.1" 200 
         ```
 ## Endpoint specification
-  > Syntax: URL/"endpointName" 
-
 
 - localhost:5000/**employee**/<_employee_name_> 
   1. This endpoint support the follwonig Http requests:
